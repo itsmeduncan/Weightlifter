@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6F83C215487E6600455664 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F83C115487E6600455664 /* Command.m */; };
+		AE6F83C315487E6600455664 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F83C115487E6600455664 /* Command.m */; };
+		AED756111548497500EAB977 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED756101548497500EAB977 /* Cocoa.framework */; };
+		AED7561B1548497500EAB977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AED756191548497500EAB977 /* InfoPlist.strings */; };
+		AED7561D1548497500EAB977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AED7561C1548497500EAB977 /* main.m */; };
+		AED756211548497500EAB977 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AED7561F1548497500EAB977 /* Credits.rtf */; };
+		AED756241548497500EAB977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED756231548497500EAB977 /* AppDelegate.m */; };
+		AED756271548497500EAB977 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AED756251548497500EAB977 /* MainMenu.xib */; };
+		AED7562F1548497500EAB977 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED7562E1548497500EAB977 /* SenTestingKit.framework */; };
+		AED756301548497500EAB977 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED756101548497500EAB977 /* Cocoa.framework */; };
+		AED756381548497500EAB977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AED756361548497500EAB977 /* InfoPlist.strings */; };
+		AED7563B1548497500EAB977 /* WeightlifterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED7563A1548497500EAB977 /* WeightlifterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED756311548497500EAB977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED756031548497500EAB977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED7560B1548497500EAB977;
+			remoteInfo = Weightlifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE6F83C015487E6600455664 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		AE6F83C115487E6600455664 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		AED7560C1548497500EAB977 /* Weightlifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weightlifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED756101548497500EAB977 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AED756131548497500EAB977 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AED756141548497500EAB977 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AED756151548497500EAB977 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AED756181548497500EAB977 /* Weightlifter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weightlifter-Info.plist"; sourceTree = "<group>"; };
+		AED7561A1548497500EAB977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AED7561C1548497500EAB977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AED7561E1548497500EAB977 /* Weightlifter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weightlifter-Prefix.pch"; sourceTree = "<group>"; };
+		AED756201548497500EAB977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AED756221548497500EAB977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AED756231548497500EAB977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AED756261548497500EAB977 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AED7562D1548497500EAB977 /* WeightlifterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightlifterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED7562E1548497500EAB977 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AED756351548497500EAB977 /* WeightlifterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeightlifterTests-Info.plist"; sourceTree = "<group>"; };
+		AED756371548497500EAB977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AED756391548497500EAB977 /* WeightlifterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightlifterTests.h; sourceTree = "<group>"; };
+		AED7563A1548497500EAB977 /* WeightlifterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightlifterTests.m; sourceTree = "<group>"; };
+		AED75644154849E500EAB977 /* Weightlifter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Weightlifter.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED756091548497500EAB977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED756111548497500EAB977 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED756291548497500EAB977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED7562F1548497500EAB977 /* SenTestingKit.framework in Frameworks */,
+				AED756301548497500EAB977 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED756011548497500EAB977 = {
+			isa = PBXGroup;
+			children = (
+				AED756161548497500EAB977 /* Weightlifter */,
+				AED756331548497500EAB977 /* WeightlifterTests */,
+				AED7560F1548497500EAB977 /* Frameworks */,
+				AED7560D1548497500EAB977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED7560D1548497500EAB977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED7560C1548497500EAB977 /* Weightlifter.app */,
+				AED7562D1548497500EAB977 /* WeightlifterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED7560F1548497500EAB977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED756101548497500EAB977 /* Cocoa.framework */,
+				AED7562E1548497500EAB977 /* SenTestingKit.framework */,
+				AED756121548497500EAB977 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AED756121548497500EAB977 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED756131548497500EAB977 /* AppKit.framework */,
+				AED756141548497500EAB977 /* CoreData.framework */,
+				AED756151548497500EAB977 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AED756161548497500EAB977 /* Weightlifter */ = {
+			isa = PBXGroup;
+			children = (
+				AED75644154849E500EAB977 /* Weightlifter.entitlements */,
+				AED756221548497500EAB977 /* AppDelegate.h */,
+				AED756231548497500EAB977 /* AppDelegate.m */,
+				AE6F83C015487E6600455664 /* Command.h */,
+				AE6F83C115487E6600455664 /* Command.m */,
+				AED756251548497500EAB977 /* MainMenu.xib */,
+				AED756171548497500EAB977 /* Supporting Files */,
+			);
+			path = Weightlifter;
+			sourceTree = "<group>";
+		};
+		AED756171548497500EAB977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED756181548497500EAB977 /* Weightlifter-Info.plist */,
+				AED756191548497500EAB977 /* InfoPlist.strings */,
+				AED7561C1548497500EAB977 /* main.m */,
+				AED7561E1548497500EAB977 /* Weightlifter-Prefix.pch */,
+				AED7561F1548497500EAB977 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AED756331548497500EAB977 /* WeightlifterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED756391548497500EAB977 /* WeightlifterTests.h */,
+				AED7563A1548497500EAB977 /* WeightlifterTests.m */,
+				AED756341548497500EAB977 /* Supporting Files */,
+			);
+			path = WeightlifterTests;
+			sourceTree = "<group>";
+		};
+		AED756341548497500EAB977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED756351548497500EAB977 /* WeightlifterTests-Info.plist */,
+				AED756361548497500EAB977 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED7560B1548497500EAB977 /* Weightlifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED7563E1548497500EAB977 /* Build configuration list for PBXNativeTarget "Weightlifter" */;
+			buildPhases = (
+				AED756081548497500EAB977 /* Sources */,
+				AED756091548497500EAB977 /* Frameworks */,
+				AED7560A1548497500EAB977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weightlifter;
+			productName = Weightlifter;
+			productReference = AED7560C1548497500EAB977 /* Weightlifter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED7562C1548497500EAB977 /* WeightlifterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED756411548497500EAB977 /* Build configuration list for PBXNativeTarget "WeightlifterTests" */;
+			buildPhases = (
+				AED756281548497500EAB977 /* Sources */,
+				AED756291548497500EAB977 /* Frameworks */,
+				AED7562A1548497500EAB977 /* Resources */,
+				AED7562B1548497500EAB977 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED756321548497500EAB977 /* PBXTargetDependency */,
+			);
+			name = WeightlifterTests;
+			productName = WeightlifterTests;
+			productReference = AED7562D1548497500EAB977 /* WeightlifterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED756031548497500EAB977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Churn;
+			};
+			buildConfigurationList = AED756061548497500EAB977 /* Build configuration list for PBXProject "Weightlifter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AED756011548497500EAB977;
+			productRefGroup = AED7560D1548497500EAB977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED7560B1548497500EAB977 /* Weightlifter */,
+				AED7562C1548497500EAB977 /* WeightlifterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED7560A1548497500EAB977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED7561B1548497500EAB977 /* InfoPlist.strings in Resources */,
+				AED756211548497500EAB977 /* Credits.rtf in Resources */,
+				AED756271548497500EAB977 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED7562A1548497500EAB977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED756381548497500EAB977 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AED7562B1548497500EAB977 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED756081548497500EAB977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED7561D1548497500EAB977 /* main.m in Sources */,
+				AED756241548497500EAB977 /* AppDelegate.m in Sources */,
+				AE6F83C215487E6600455664 /* Command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED756281548497500EAB977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED7563B1548497500EAB977 /* WeightlifterTests.m in Sources */,
+				AE6F83C315487E6600455664 /* Command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED756321548497500EAB977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED7560B1548497500EAB977 /* Weightlifter */;
+			targetProxy = AED756311548497500EAB977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED756191548497500EAB977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED7561A1548497500EAB977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AED7561F1548497500EAB977 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED756201548497500EAB977 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AED756251548497500EAB977 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED756261548497500EAB977 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AED756361548497500EAB977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED756371548497500EAB977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED7563C1548497500EAB977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AED7563D1548497500EAB977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AED7563F1548497500EAB977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Weightlifter/Weightlifter.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weightlifter/Weightlifter-Prefix.pch";
+				INFOPLIST_FILE = "Weightlifter/Weightlifter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AED756401548497500EAB977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Weightlifter/Weightlifter.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weightlifter/Weightlifter-Prefix.pch";
+				INFOPLIST_FILE = "Weightlifter/Weightlifter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AED756421548497500EAB977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weightlifter.app/Contents/MacOS/Weightlifter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weightlifter/Weightlifter-Prefix.pch";
+				INFOPLIST_FILE = "WeightlifterTests/WeightlifterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AED756431548497500EAB977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weightlifter.app/Contents/MacOS/Weightlifter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weightlifter/Weightlifter-Prefix.pch";
+				INFOPLIST_FILE = "WeightlifterTests/WeightlifterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED756061548497500EAB977 /* Build configuration list for PBXProject "Weightlifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED7563C1548497500EAB977 /* Debug */,
+				AED7563D1548497500EAB977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED7563E1548497500EAB977 /* Build configuration list for PBXNativeTarget "Weightlifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED7563F1548497500EAB977 /* Debug */,
+				AED756401548497500EAB977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED756411548497500EAB977 /* Build configuration list for PBXNativeTarget "WeightlifterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED756421548497500EAB977 /* Debug */,
+				AED756431548497500EAB977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED756031548497500EAB977 /* Project object */;
+}
